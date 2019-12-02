@@ -4,6 +4,7 @@ on: 2019/12/02
 Answer: 3330521
 """
 
+
 def mass_to_fuel(mass):
     return int(mass / 3) - 2
 
@@ -22,6 +23,7 @@ def main():
     inputs = [int(val) for val in inputs]
     # Sum of all fuel needs
     print(sum([mass_to_fuel(mass) for mass in inputs]))
+
 
 if __name__ == '__main__':
     main()

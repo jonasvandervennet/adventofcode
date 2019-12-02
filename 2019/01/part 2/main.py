@@ -4,6 +4,7 @@ on: 2019/12/02
 Answer: 4992931
 """
 
+
 def mass_to_fuel(mass):
     """
     To account for the mass of the added fuel,
@@ -29,6 +30,7 @@ def main():
     inputs = [int(val) for val in inputs]
     # Sum of all fuel needs
     print(sum([mass_to_fuel(mass) for mass in inputs]))
+
 
 if __name__ == '__main__':
     main()
