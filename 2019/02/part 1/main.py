@@ -47,7 +47,7 @@ def main():
         if calculated_output != output:
             raise AssertionError(f'{calculated_output} != {output}')
 
-    with open('input.txt') as ifp:
+    with open('../input.txt') as ifp:
         inputs = ifp.readlines()
     # cast read values to right format and type
     input_program = [
