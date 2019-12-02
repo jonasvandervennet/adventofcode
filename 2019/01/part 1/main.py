@@ -16,7 +16,7 @@ def main():
     for mass, answer in test_inputs:
         assert(mass_to_fuel(mass) == answer)
 
-    with open('input.txt') as ifp:
+    with open('../input.txt') as ifp:
         inputs = ifp.readlines()
     # cast read values to int
     inputs = [int(val) for val in inputs]
