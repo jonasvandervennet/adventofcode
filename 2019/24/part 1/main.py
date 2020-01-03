@@ -1,7 +1,7 @@
 """
 Written by: Jonas Vander Vennet
-on: 2020/01/02
-Answer: 899155
+on: 2020/01/03
+Answer: 17321586
 """
 
 
